@@ -1,0 +1,38 @@
+body {
+    background-color:#37424e;
+    margin: 0px;
+}
+
+.topheader {
+    display: block;
+    width: 30%;
+    margin: 5% auto auto auto;
+    text-align: center;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: 2px;
+    border-color: #c08521;
+    background-color: #3e5b76;
+}
+
+.topheader p {
+    font-size: 240%;
+    color: #c1cddc;
+    margin: 3%;
+}
+
+.aboutme {
+    float:left;
+    width:49%;
+    margin: 5% auto auto 1%;
+    border-style:solid;
+    border-width:2px;
+    border-radius:7px;
+    border-color:#c08521;
+    text-align:center;
+    background-color:#37424e;
+}
+
+.aboutme h2 {
+    color:#c1cddc;
+}
