@@ -29,10 +29,11 @@ body {
 }
 
 /*------BELOW IS FOR INDEX.HTML*/
+/*----THIS IS FOR ALL*/
 .topheader {
     display: block;
     width: 30%;
-    margin: 5% auto auto auto;
+    margin: 3% auto auto auto;
     text-align: center;
     border-style: solid;
     border-radius: 7px;
@@ -63,4 +64,30 @@ body {
     color:#c1cddc;
 }
 
-/*BELOW IS FOR PROFESSIONAL_DOCS.HTML*/
+/*------BELOW IS FOR PROFESSIONAL_DOCS.HTML*/
+.sect {
+    float:left;
+    margin: 3% auto auto 2%;
+    
+    
+}
+
+.flex {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.flex-sect > div{
+    border-style:solid;
+    border-width:1px;
+    border-radius:7px;
+    border-color:#c08521;
+    text-align:center;
+    background-color:#37424e;
+    width:30%;
+}
+
+.sect h2 {
+    color:#c1cddc;
+}
