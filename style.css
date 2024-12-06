@@ -1,52 +1,61 @@
-/*------BELOW IS FOR ALL PAGES*/
+/* ------ BELOW IS FOR ALL PAGES */
 body {
-    background-color:#37424e;
+    background-color:white;
     margin: 0px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/*----THIS IS NAVBAR*/
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* THIS IS NAVBAR */
 .navbar {
-    background-color:#3e5b76;
+    background-color:#068488;
     overflow:hidden;
-    border-color:#c08521;
-    border-radius:7px;
-    border-width:1px;
-    border-style:solid;
 }
 .navbar a {
     float:left;
     text-align:center;
     padding:15px;
-    font-size:17px;
+    font-size:20px;
     text-decoration:none;
-    color:#c1cddc;
+    color:#ffffff;
 }
 .navbar a:hover {
-    background-color:#37424e;
+    background-color:#324b4c;
 }
 .navbar a.active {
-    background-color:#c08521;
+    background-color:#324b4c;
 }
 
-/*------BELOW IS FOR INDEX.HTML*/
-/*----THIS IS FOR ALL*/
+/* ------ BELOW IS FOR INDEX.HTML */
+/* THIS IS FOR ALL */
 .topheader {
-    display: block;
+    display:inherit;
     width: 30%;
-    margin: 3% auto auto auto;
+    margin: auto;
     text-align: center;
     border-style: solid;
     border-radius: 7px;
     border-width: 1px;
-    border-color: #c08521;
+    border-color: black;
     background-color: #3e5b76;
 }
-
 .topheader p {
     font-size: 240%;
-    color: #c1cddc;
+    color: #ffffff;
     margin: 3%;
+}
+.headerback {
+    padding: 5% auto auto auto;
+    background-color:#00c6cf;
 }
 
 .aboutme {
@@ -62,7 +71,7 @@ body {
 }
 
 .aboutme h2 {
-    color:#c1cddc;
+    color:#ffffff;
 }
 
 /*------BELOW IS FOR PROFESSIONAL_DOCS.HTML*/
@@ -81,8 +90,12 @@ body {
     border-color:#c08521;
     text-align:center;
     background-color:#37424e;
-    color:#c1cddc;
+    color:#ffffff;
     flex:40%;
+}
+
+.resumediv, .coverletterdiv {
+    height:500px;
 }
 
 @media (max-width: 800px) {
