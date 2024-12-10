@@ -38,23 +38,18 @@ body::-webkit-scrollbar {
 /* ------ BELOW IS FOR INDEX.HTML */
 /* THIS IS FOR ALL */
 .topheader {
-    display:inherit;
-    width: 30%;
     margin: auto;
+    width:50%;
     text-align: center;
-    border-style: solid;
-    border-radius: 7px;
-    border-width: 1px;
-    border-color: black;
-    background-color: #3e5b76;
+    background-color:#00c6cf;
 }
 .topheader p {
-    font-size: 240%;
+    font-size: 300%;
     color: #ffffff;
     margin: 3%;
 }
 .headerback {
-    padding: 5% auto auto auto;
+    padding: 3% 0px 3% 0px;
     background-color:#00c6cf;
 }
 
@@ -74,7 +69,7 @@ body::-webkit-scrollbar {
     color:#ffffff;
 }
 
-/*------BELOW IS FOR PROFESSIONAL_DOCS.HTML*/
+/* ------ BELOW IS FOR PROFESSIONAL_DOCS.HTML */
 .flex-sect {
     display:flex;
     flex-wrap:wrap;
@@ -91,7 +86,7 @@ body::-webkit-scrollbar {
     text-align:center;
     background-color:#37424e;
     color:#ffffff;
-    flex:40%;
+    flex:50%;
 }
 
 .resumediv, .coverletterdiv {
