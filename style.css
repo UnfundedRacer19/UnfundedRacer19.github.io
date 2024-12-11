@@ -80,16 +80,21 @@ body::-webkit-scrollbar {
 .flex-sect > div{
     margin: 3% 1% auto 1%;
     border-style:solid;
-    border-width:1px;
     border-radius:7px;
-    border-color:#c08521;
     text-align:center;
-    background-color:#37424e;
     color:#ffffff;
     flex:50%;
 }
 
-.resumediv, .coverletterdiv {
+.resumediv, .certsdiv {
+    background-color:#068488;
+}
+
+.coverletterdiv, .letterofrecdiv {
+    background-color:#00c6cf;
+}
+
+.resumediv, .coverletterdiv, .certsdiv {
     height:500px;
 }
 
