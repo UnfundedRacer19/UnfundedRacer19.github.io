@@ -17,22 +17,35 @@ body::-webkit-scrollbar {
 
 /* THIS IS NAVBAR */
 .navbar {
-    background-color:#068488;
+    background-color:#00c6cf;
     overflow:hidden;
+    padding-left:10%;
+    padding-top:1%;
 }
 .navbar a {
     float:left;
     text-align:center;
-    padding:15px;
-    font-size:20px;
+    padding:15px 30px 15px 30px;
+    margin-left:1%;
+    font-size:23px;
     text-decoration:none;
     color:#ffffff;
+    border-radius:5px;
 }
 .navbar a:hover {
-    background-color:#324b4c;
+    background-color:#068488;
 }
 .navbar a.active {
+    background-color:#068488;
+    
+}
+
+/* THIS IS FOOTER */
+.footer {
+    bottom:0;
     background-color:#324b4c;
+    width:100%;
+    text-align: center;
 }
 
 /* ------ BELOW IS FOR INDEX.HTML */
@@ -78,23 +91,44 @@ body::-webkit-scrollbar {
 }
 
 .flex-sect > div{
-    margin: 3% 1% auto 1%;
-    border-style:solid;
+    margin: 2% 1% auto 1%;
     border-radius:7px;
     text-align:center;
     color:#ffffff;
     flex:50%;
 }
 
+.certrecdiv {
+    display:flex;
+    justify-content: space-between;
+}
+
+.certsdiv, .letterofrecdiv {
+    border-radius: 7px;
+    flex:45%;
+}
+
+.letterofrecdiv {
+    margin-left:2%;
+}
+.letterofrecdiv > img {
+    margin-bottom: 2%;
+}
+
+.certsdiv > ul {
+    font-size: 150%;
+    list-style-type:none;
+    padding:0%;
+}
+
 .resumediv, .certsdiv {
     background-color:#068488;
 }
-
 .coverletterdiv, .letterofrecdiv {
     background-color:#00c6cf;
 }
 
-.resumediv, .coverletterdiv, .certsdiv {
+.resumediv, .coverletterdiv {
     height:500px;
 }
 
